@@ -25,7 +25,7 @@ extern "C" {
 using namespace std;
 
 int main(){
-	cout << "Ret: nasm: " << add_nasm(64,20) << endl ;
+	cout << "Ret: nasm: " << add_nasm(62,-20) << endl ;
 	cout <<	"Ret: gas: " << add_gas(32,10) << endl ;
 	return 0;
 }
