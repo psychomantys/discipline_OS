@@ -1,7 +1,7 @@
 /*
  * =====================================================================================
  *
- *       Filename:  test_add.cpp
+ *       Filename:  test_ref.cpp
  *
  *    Description:  
  *
@@ -18,8 +18,8 @@
 #include	<iostream>
 
 extern "C" {
-	int add_nasm(int a, int b);
-	int add_gas(int a, int b);
+	int add_nasm(const int &a, const int &b);
+	int add_gas(const int &a, const int &b);
 }
 
 using namespace std;
